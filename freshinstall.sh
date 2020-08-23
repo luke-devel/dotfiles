@@ -28,6 +28,12 @@ sudo apt install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0 -y
 # dvd support
 sudo apt install libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg -y
 
+# install meson
+sudo apt install meson -y
+
+# dependencies 
+sudo apt install libglib2.0-dev libjson-glib-dev libpurple-dev libunistring-dev libsystemd-dev check swig -y
+
 # install flatpak
 sudo apt install flatpak -y
 
