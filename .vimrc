@@ -114,7 +114,7 @@ endif
 
 let g:vim_bootstrap_langs = "c,html,javascript,python,typescript"
 let g:vim_bootstrap_editor = "vim"				" nvim or vim
-let g:vim_bootstrap_theme = "vim-code-dark"
+let g:vim_bootstrap_theme = "codedark"
 let g:vim_bootstrap_frams = ""
 let g:polyglot_disabled = ['python']
 
