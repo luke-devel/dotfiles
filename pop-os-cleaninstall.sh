@@ -3,7 +3,7 @@
 sudo apt update
 
 # upgrade packages
-sudo apt full-upgrade
+sudo apt full-upgrade -y
 
 # install brave web browser
 sudo apt install apt-transport-https curl -y
